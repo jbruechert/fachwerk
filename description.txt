@@ -1,0 +1,2 @@
+This mod adds timber-framed clay, bricks, cobble, stone and stone bricks to the game.
+There is a simple API for adding new timeber-framed nodes.

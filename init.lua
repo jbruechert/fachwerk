@@ -1,4 +1,10 @@
+-- mods/fachwerk/init.lua
+-- ======================
+-- See README.md for licensing and other information.
+
 fachwerk = {}
 
-dofile(minetest.get_modpath("fachwerk").."/api.lua")
-dofile(minetest.get_modpath("fachwerk").."/nodes.lua")
+local modpath = minetest.get_modpath("fachwerk")
+
+dofile(modpath .."/api.lua")
+dofile(modpath .. "/nodes.lua")
