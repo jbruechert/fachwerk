@@ -1,40 +1,28 @@
-# fachwerk
-version 0.4.9.1
-copyright (C) 2015 - 2016 JBB
+# Minetest Mod Timber-Frame [fachwerk]
+Version 0.4.9.1 Alpha, License: WTFPL/CC BY-SA 3.0
 
-The fachwerk mod adds timber-framed blocks to Minetest.
-It's using a simple API to add new timber-framed blocks
-
-# contributors
-License of source code
-----------------------
- 
- DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
-                    Version 2, December 2004 
-
- Copyright (C) 2004 Sam Hocevar <sam@hocevar.net> 
-
- Everyone is permitted to copy and distribute verbatim or modified 
- copies of this license document, and changing it is allowed as long 
- as the name is changed. 
-
-            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
-   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION 
-
-  0. You just DO WHAT THE FUCK YOU WANT TO.
-
-
-License of media (textures)
---------------------------------------
-
-License of textures
-Copyright (C) 2015 JBB CC BY-SA 3.0
-
-# TODO
-- Make a TNG / AF8 special version
-- add new blocks if requested by users
-- clean up code
-
-# Screenshots
 ![Screenshot 1](http://i.imgur.com/JMegjRt.jpg)
-![Screenshot 2](https://forum.minetest.net/download/file.php?mode=view&id=2575 "screenshot by sokomine")
+
+## Description
+The fachwerk mod adds timber-framed blocks to Minetest. It has a simple API for
+adding new timber-framed nodes.
+
+## Notes
+This mod depends on:
+
+* __`default`__ from Minetest Game or similar
+
+It was tested with Minetest 0.4.14, but should run with the most older versions, too.
+
+## More Screenshots
+![Screenshot 2](https://forum.minetest.net/download/file.php?mode=view&id=2575 "Screenshot by sokomine")
+
+## Bug reports and suggestions
+You can report bugs, suggest ideas and ask questions on
+[GitHub](http://github.com/jbbgameich/fachwerk/issues/new), in the
+[Minetest Forum](https://forum.minetest.net/viewtopic.php?id=11036) or just
+[email](mailto:jbb.mail@gmx.de) me.
+
+## Links
+* [GitHub](http://github.com/jbbgameich/fachwerk/)
+* [Minetest Forum](https://forum.minetest.net/viewtopic.php?id=11036)
