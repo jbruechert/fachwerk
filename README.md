@@ -1,5 +1,6 @@
 # fachwerk
-version 0.9.1
+version 0.4.9.1
+copyright (C) 2015 - 2016 JBB
 
 The fachwerk mod adds timber-framed blocks to Minetest.
 It's using a simple API to add new timber-framed blocks
