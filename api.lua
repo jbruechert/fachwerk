@@ -16,7 +16,7 @@ function fachwerk.register_fachwerk(basename, texture, description, craft_from)
 
 	minetest.register_node("fachwerk:" .. basename .. "_1", {
 		description = "Timber-framed " .. description .. " Oblique Beam 1",
-		tile_images = {
+		tiles = {
 			texture .. "^fachwerk_blank.png", -- top
 			texture .. "^fachwerk_blank.png", -- bottom
 			texture .. "^fachwerk_beam_1.png",
