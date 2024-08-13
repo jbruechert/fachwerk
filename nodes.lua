@@ -42,18 +42,8 @@ minetest.register_craft({
 	output = "fachwerk:framed_glass 8",
 	recipe = {
 		{"group:wood", "group:wood", "group:wood"},
-		{"group:wood", "default:obsidian_glass", "group:wood"},
+		{"group:wood", "default:glass", "group:wood"},
 		{"group:wood", "group:wood", "group:wood"}
 	}
 })
 
-if minetest.get_modpath("moreblocks") then
-	minetest.register_craft({
-		output = "fachwerk:framed_glass 8",
-		recipe = {
-			{"group:wood", "group:wood", "group:wood"},
-			{"group:wood", "moreblocks:clean_glass", "group:wood"},
-			{"group:wood", "group:wood", "group:wood"}
-		}
-	})
-end
