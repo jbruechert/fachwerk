@@ -7,4 +7,6 @@ fachwerk = {}
 local modpath = minetest.get_modpath("fachwerk")
 
 dofile(modpath .."/api.lua")
-dofile(modpath .. "/nodes.lua")
+if minetest.get_modpath("default") then
+    dofile(modpath .. "/default_nodes.lua")
+end
