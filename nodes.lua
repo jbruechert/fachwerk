@@ -2,6 +2,8 @@
 -- =======================
 -- See README.md for licensing and other information.
 
+local S = minetest.get_translator("fachwerk")
+
 -- Optional fachwerk types you can enable if you like
 -- Registers desert stone, white, grey and yellow wool, wood and junglewood
 local additional_fachwerk_types = false
@@ -27,7 +29,7 @@ end
 --
 
 minetest.register_node("fachwerk:framed_glass", {
-	description = "Timber-framed Glass",
+	description = S("Timber-framed Glass"),
 	drawtype = "glasslike_framed_optional",
 	tiles = {"fachwerk_blank.png^default_glass_detail.png", "default_glass_detail.png"},
 	inventory_image = minetest.inventorycube("fachwerk_blank.png"),

@@ -2,11 +2,13 @@
 -- =====================
 -- See README.md for licensing and other information.
 
+local S = minetest.get_translator("fachwerk")
+
 function fachwerk.register_fachwerk(basename, texture, description, craft_from)
 	local group_def = {choppy = 2, oddly_breakable_by_hand = 2, cracky = 3}
 
 	minetest.register_node(":fachwerk:" .. basename, {
-		description = "Timber-framed " .. description,
+		description = S("Timber-framed @1", description),
 		tiles = {texture .. "^fachwerk_blank.png"},
 		paramtype = "light",
 		paramtype2 = "facedir",
@@ -15,7 +17,7 @@ function fachwerk.register_fachwerk(basename, texture, description, craft_from)
 	})
 
 	minetest.register_node(":fachwerk:" .. basename .. "_1", {
-		description = "Timber-framed " .. description .. " Oblique Beam 1",
+		description = S("Timber-framed @1 (@2)", description, S("Oblique Beam 1")),
 		tiles = {
 			texture .. "^fachwerk_blank.png", -- top
 			texture .. "^fachwerk_blank.png", -- bottom
@@ -32,7 +34,7 @@ function fachwerk.register_fachwerk(basename, texture, description, craft_from)
 
 	-- TODO: is this one really needed? the node above covers most of that already
 	minetest.register_node(":fachwerk:" .. basename .. "_2", {
-		description = "Timber-framed " .. description .. " Oblique Beam 2",
+		description = S("Timber-framed @1 (@2)", description, S("Oblique Beam 2")),
 		tiles = {
 			texture .. "^fachwerk_blank.png", -- top
 			texture .. "^fachwerk_blank.png", -- bottom
@@ -48,7 +50,7 @@ function fachwerk.register_fachwerk(basename, texture, description, craft_from)
 	})
 
 	minetest.register_node(":fachwerk:" .. basename .. "_cross", {
-		description = "Timber-framed " .. description .. " Cross",
+		description = S("Timber-framed @1 (@2)", description, S("Cross")),
 		tiles = {texture .. "^fachwerk_cross.png"},
 		groups = group_def,
 		sounds = default.node_sound_stone_defaults()
