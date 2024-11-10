@@ -1,0 +1,11 @@
+# textdomain: fachwerk
+
+##[ api.lua ]##
+Timber-framed @1=
+Timber-framed @1 (@2)=
+Oblique Beam 1=
+Oblique Beam 2=
+Cross=
+
+##[ nodes.lua ]##
+Timber-framed Glass=
