@@ -36,6 +36,7 @@ minetest.register_node("fachwerk:framed_glass", {
 	paramtype = "light",
 	sunlight_propagates = true,
 	is_ground_content = false,
+	use_texture_alpha = "blend",
 	groups = {cracky = 3,oddly_breakable_by_hand = 3},
 	sounds = default.node_sound_glass_defaults(),
 })
